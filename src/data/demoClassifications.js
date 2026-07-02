@@ -1,0 +1,68 @@
+// Clasificaciones pre-generadas para el modo demo.
+// Regeneradas con el propio sistema (WebLLM local) — ver README.
+export const DEMO_CLASSIFICATIONS = {
+  "No me abre el ERP y tengo que sacar la facturación de hoy, urge": {
+    category: "TI",
+    urgency: "crítica",
+    department: "Sistemas",
+    summary: "ERP inaccesible, bloquea la facturación del día",
+    suggestedResponse: "Lamentamos el inconveniente. Estamos revisando el acceso al ERP con máxima prioridad y le avisaremos en cuanto se restablezca. Mientras tanto, intente cerrar sesión completamente y volver a ingresar.",
+    sentiment: "frustrado",
+  },
+  "¿Cómo solicito mis vacaciones? Ya tengo un año en la empresa": {
+    category: "RH",
+    urgency: "baja",
+    department: "Recursos Humanos",
+    summary: "Consulta sobre proceso de solicitud de vacaciones",
+    suggestedResponse: "¡Con gusto! Al cumplir un año ya cuenta con días disponibles. Descargue el formato de solicitud en el portal de RH, llénelo y envíelo a su jefe directo para aprobación.",
+    sentiment: "neutral",
+  },
+  "El cliente Transportes García está furioso, su pedido llegó incompleto otra vez": {
+    category: "Cliente",
+    urgency: "alta",
+    department: "Atención a Clientes",
+    summary: "Cliente molesto por pedido incompleto recurrente",
+    suggestedResponse: "Gracias por reportarlo de inmediato. Escalaremos el caso con operaciones para identificar el faltante y contactaremos al cliente hoy mismo con una solución y disculpa formal.",
+    sentiment: "molesto",
+  },
+  "La impresora del segundo piso otra vez no jala": {
+    category: "TI",
+    urgency: "media",
+    department: "Soporte Técnico",
+    summary: "Impresora del segundo piso fuera de servicio",
+    suggestedResponse: "Gracias por el reporte. Enviaremos a soporte a revisar la impresora hoy. Mientras tanto, puede imprimir en la impresora de recepción con su misma cuenta.",
+    sentiment: "frustrado",
+  },
+  "Se me olvidó mi contraseña del correo": {
+    category: "TI",
+    urgency: "media",
+    department: "Soporte Técnico",
+    summary: "Usuario requiere restablecer contraseña de correo",
+    suggestedResponse: "No se preocupe, es muy común. Le enviaremos un enlace de restablecimiento a su correo alterno registrado. El proceso toma menos de 5 minutos.",
+    sentiment: "neutral",
+  },
+  "Sugerencia: estaría bien tener una pantalla en almacén con los pedidos del día": {
+    category: "Operaciones",
+    urgency: "baja",
+    department: "Operaciones",
+    summary: "Propuesta de pantalla con pedidos del día en almacén",
+    suggestedResponse: "¡Excelente sugerencia! La registraremos para evaluación con el área de operaciones y sistemas. Le informaremos si se aprueba para implementación.",
+    sentiment: "neutral",
+  },
+  "El internet está lentísimo desde la mañana en toda la oficina": {
+    category: "TI",
+    urgency: "alta",
+    department: "Sistemas",
+    summary: "Lentitud generalizada de internet en la oficina",
+    suggestedResponse: "Estamos al tanto y revisando el enlace principal con el proveedor. Le informaremos avances en los próximos 30 minutos. Gracias por su paciencia.",
+    sentiment: "frustrado",
+  },
+  "Necesito acceso al módulo de inventarios, mi jefe ya lo autorizó": {
+    category: "TI",
+    urgency: "media",
+    department: "Sistemas",
+    summary: "Solicitud de acceso al módulo de inventarios autorizada",
+    suggestedResponse: "Perfecto. Para proceder solo necesitamos la autorización por correo de su jefe directo. En cuanto la recibamos, el acceso quedará activo el mismo día.",
+    sentiment: "neutral",
+  },
+};
